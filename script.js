@@ -3,6 +3,7 @@ const dropdownItems = document.querySelectorAll('.dropdown__item');
 dropdownItems.forEach(dropdownItem=> {
   const dropdown = dropdownItem.querySelector('.dropdown');
   const arrow = dropdownItem.querySelector('span'); 
+  console.log(dropdown)
 
   dropdownItem.addEventListener('click', () => {
 
